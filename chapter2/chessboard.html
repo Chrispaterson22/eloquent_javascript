@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chessboard</title>
+    <script type="text/javascript">
+      let size = 8;
+      let output = "";
+
+      for (var i = 0; i < size; i++) {
+        for (var j = 0; j < size; j++) {
+          output += (i + j) % 2 ? " " : "#";
+        }
+        output += "\n";
+      }
+      console.log(output);
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
